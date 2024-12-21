@@ -36,24 +36,24 @@ export default function Navbar() {
            <img src="https://www.delhitempotraveller.com/assets/images/banner/traveller.jpg" class="d-block w-100" alt="..."/>
            <div class="carousel-caption d-none d-md-block">
              <h5 className='booking-plan'>Tempo Traveller Book Now</h5>
-             <p>Some representative placeholder content for the first slide.</p>
-             <button className='book-btn'>BOOK NOW</button>
+             <p className='mt-2'>Some representative placeholder content for the first slide.</p>
+             <button className='book-btn mt-3'>BOOK NOW</button>
            </div>
          </div>
          <div class="carousel-item">
            <img src="https://www.delhitempotraveller.com/assets/images/banner/manali-tour.jpg" class="d-block w-100" alt="..."/>
            <div class="carousel-caption d-none d-md-block">
              <h5 className='booking-plan'>Delhi to Agra Tour</h5>
-             <p>Some representative placeholder content for the second slide.</p>
-             <button className='book-btn'>BOOK NOW</button>
+             <p className='mt-2'>Some representative placeholder content for the second slide.</p>
+             <button className='book-btn mt-3'>BOOK NOW</button>
            </div>
          </div>
          <div class="carousel-item">
            <img src="https://www.delhitempotraveller.com/assets/images/banner/agra-tour.jpg" class="d-block w-100" alt="..."/>
            <div class="carousel-caption d-none d-md-block">
              <h5 className='booking-plan'>Delhi to Manali Tour</h5>
-             <p>Some representative placeholder content for the third slide.</p>
-             <button className='book-btn'>BOOK NOW</button>
+             <p className='mt-2'>Some representative placeholder content for the third slide.</p>
+             <button className='book-btn mt-3'>BOOK NOW</button>
            </div>
          </div>
        </div>
@@ -297,88 +297,30 @@ export default function Navbar() {
                  </div>
              </div>
          </div>
-     
-         <div class="tour-container" id='Packages'>
-             <h1 class="tour-heading">Tour Packages</h1>
-             <div class="tour-card-container">
-                 <div class="tour-card">
-                     <img src="https://www.uppaltempotravellers.com/wp-content/uploads/2024/02/Untitled-1-300x225.png" alt="Delhi To Agra"/>
-                     <h2 class="tour-title">Delhi To Agra Tempo Traveler Service</h2>
-                     <p class="tour-description">Uppal Travels takes pride in providing reliable and comfortable tempo traveler services from Delhi to Manali.</p>
-                     <button class="tour-button">Read More</button>
-                 </div>
-                 <div class="tour-card">
-                     <img src="https://www.uppaltempotravellers.com/wp-content/uploads/2024/02/Untitled-2678-1024x768.png" alt="Delhi To Jaipur"/>
-                     <h2 class="tour-title">Delhi To Jaipur Tempo Traveller Service</h2>
-                     <p class="tour-description">Embark on a regal journey from Delhi to Jaipur with Uppal Travels, where every mile takes you deeper.</p>
-                     <button class="tour-button">Read More</button>
-                 </div>
-                 <div class="tour-card">
-                     <img src="https://www.uppaltempotravellers.com/wp-content/uploads/2024/02/Untitled-1-1-1024x768.png" alt="Delhi To Ayodhya"/>
-                     <h2 class="tour-title">Delhi To Ayodhya Tempo Traveler  </h2>
-                     <p class="tour-description">Journey from the bustling city of Delhi to the sacred city of Ayodhya with Uppal Travels, where every mile </p>
-                     <button class="tour-button">Read More</button>
-                 </div>
-                 <div class="tour-card">
-                     <img src="https://www.uppaltempotravellers.com/wp-content/uploads/2024/02/chardham-yatra-1024x604.jpg" alt="Char Dham Yatra"/>
-                     <h2 class="tour-title">Tempo Traveler Service For Char  </h2>
-                     <p class="tour-description">Experience the divine aura of the Char Dham Yatra with Uppal Travels, where every bend of the holy paths </p>
-                     <button class="tour-button">Read More</button>
-                 </div>
-             </div>
-         </div>
-     
-         
-         <div class="tour-container">
+        <div className='whyuse-div'>
+        <h1 className='whyuse'>Why Use Uppal Tempo Travellers?</h1>
+        </div>
+        <div className='why-use-tampo'>
             
-             <div class="tour-card-container">
-                 <div class="tour-card">
-                     <img src="https://www.uppaltempotravellers.com/wp-content/uploads/2024/02/Untitled-1-300x225.png" alt="Delhi To Agra"/>
-                     <h2 class="tour-title">Delhi To Agra Tempo Traveler Service</h2>
-                     <p class="tour-description">Uppal Travels takes pride in providing reliable and comfortable tempo traveler services from Delhi to Manali.</p>
-                     <button class="tour-button">Read More</button>
-                 </div>
-                 <div class="tour-card">
-                     <img src="https://www.uppaltempotravellers.com/wp-content/uploads/2024/02/Untitled-2678-1024x768.png" alt="Delhi To Jaipur"/>
-                     <h2 class="tour-title">Delhi To Jaipur Tempo Traveller Service</h2>
-                     <p class="tour-description">Embark on a regal journey from Delhi to Jaipur with Uppal Travels, where every mile takes you deeper.</p>
-                     <button class="tour-button">Read More</button>
-                 </div>
-                 <div class="tour-card">
-                     <img src="https://www.uppaltempotravellers.com/wp-content/uploads/2024/02/Untitled-1-1-1024x768.png" alt="Delhi To Ayodhya"/>
-                     <h2 class="tour-title">Delhi To Ayodhya Tempo Traveler  </h2>
-                     <p class="tour-description">Journey from the bustling city of Delhi to the sacred city of Ayodhya with Uppal Travels, where every mile </p>
-                     <button class="tour-button">Read More</button>
-                 </div>
-                 <div class="tour-card">
-                     <img src="https://www.uppaltempotravellers.com/wp-content/uploads/2024/02/chardham-yatra-1024x604.jpg" alt="Char Dham Yatra"/>
-                     <h2 class="tour-title">Tempo Traveler Service For Char  </h2>
-                     <p class="tour-description">Experience the divine aura of the Char Dham Yatra with Uppal Travels, where every bend of the holy paths </p>
-                     <button class="tour-button">Read More</button>
-                 </div>
-             </div>
-         </div>
-         
-         {/* <div class="booking-section">
-         <div class="booking-overlay">
-           <div class="booking-content">
-             <h1>24X7 Booking for Outstation Tempo Traveller At Uppal Travels</h1>
-             <div class="contact-info">
-               <div class="contact-item">
-                 <i class="phone-icon"></i>
-                 <span>+91-9910229914</span>
-               </div>
-               <div class="contact-item">
-                 <h3>Call Now</h3>
-               </div>
-               <div class="contact-item">
-                 <i class="phone-icon"></i>
-                 <span>+91-7838729914</span>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div> */}
+            <div className='reason'>
+                <h2>Comfort and Convenience</h2>
+                <img src="https://www.progressivetourtravels.com/images/tempo-traveller-rental-delhi-inside.jpg" alt="" />
+            </div>
+            <div className='reason'>
+                <h2>Cost-Effective</h2>
+                <img src="https://cdn.bluebirdtravels.in/wp-content/uploads/2017/01/Tempo_Traveller_PI.webp" alt="" />
+            </div>
+            <div className='reason'>
+                <h2>Ideal for Group Travel</h2>
+                <img src="https://www.actempotravellerhire.com/images/tempo1.webp" alt="" />
+            </div>
+            <div className='reason'>
+                <h2>Luggage Space</h2>
+                <img src="https://www.actempotravellerhire.com/images/9-seater-tempo-traveller.jpg" alt="" />
+            </div>
+
+
+        </div>
      
        <div class="unique-container" id='Contact'>
          <div class="unique-form-section">
@@ -492,7 +434,7 @@ mail
                      <a href="#">Refund Policy</a> | 
                      <a href="#">Contact Us</a>
                  </div>
-                 <p>Design by Webclickindia.NET | Copyright 2024 Uppal Travels</p>
+                 <p>Design by WebkeyIndia | Copyright 2024 Uppal Travels</p>
              </div>
          </footer>
         

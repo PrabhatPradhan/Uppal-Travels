@@ -453,6 +453,119 @@ background-color: #FF9F33;
     background-color: #e67600;
 }
 
+.why-use-tampo {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .why-use-tampo h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .reason-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns for the grid */
+    gap: 30px; /* Adds space between the grid items */
+    margin-bottom: 30px;
+  }  
+  .reason {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reason h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .reason img {
+    width: 30rem;
+    height: 16rem;
+     
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .why-use-tampo{
+    display: grid; /* Enables grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+    gap: 20px
+}
+.whyuse{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-left: 25rem;
+   
+    display: flex;
+    align-items: center;
+}
+.reason{
+    background-color: lightgray; /* Just for visibility */
+    padding: 20px;
+    text-align: center;
+    border-radius: .3rem;
+}
+  
+  @media (max-width: 768px) {
+    .reason-grid {
+      grid-template-columns: 1fr; /* Stacks the items vertically on small screens */
+    }
+  }
+  
+  
+  /* Responsive Styling */
+  @media (min-width: 768px) {
+    .reason {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .reason h2 {
+      font-size: 1.5rem;
+      padding-bottom:1rem ;
+      margin: 0 20px 0 0;
+      text-align: left;
+    }
+     
+  
+    .reason img {
+       
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .why-use-tampo h1 {
+
+      font-size: 2rem;
+    }
+    .why-use-tampo{
+        display: grid; /* Enables grid layout */
+        grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+        gap: 20px
+    }
+    .reason{
+        background-color: lightgray; /* Just for visibility */
+        padding: 20px;
+        text-align: center;
+    }
+    .reason h2 {
+      font-size: 1.4rem;
+    }
+  
+    .reason img {
+      max-width: 90%;
+    }
+  }
+  
+
 
 /* General Styles */
 .footer-wrapper {
@@ -707,6 +820,20 @@ background-color: #FF9F33;
   @media(max-width: 480px) {
     .unique-heading {
       font-size: 1.3rem;
+    }
+    .whyuse{
+        padding: 0;
+        font-size: 1.4rem;
+        padding-top:1.5rem;
+    }
+    .whyuse-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .why-use-tampo{
+        display: flex;
+        flex-direction: column;
     }
     .text-section p{
        font-size: 1.1rem;
