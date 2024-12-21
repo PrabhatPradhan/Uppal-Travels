@@ -2,7 +2,8 @@ import React from 'react'
 import './Navbar.css'
 export default function Navbar() {
   return (
-    <>
+    < >
+    <div className='main'>
    <div className='navbar'>
     <div className='logo'>
         <a href="/">
@@ -98,7 +99,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
              <div class="card">
                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-anSUE2enX6nYQGXVy5XV2HFQTQpQ1ECAg&s" alt="12 Seater Tempo Traveller"/>
@@ -109,7 +114,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
              <div class="card">
                  <img src="https://www.delhitempotravellers.com/images/14seater.jpg" alt="14 Seater Tempo Traveller"/>
@@ -120,7 +129,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
              <div class="card">
                  <img src="https://5.imimg.com/data5/NP/FU/MY-5786013/16-seater-tempo-traveller-hire-in-delhi-500x500.jpg" alt="16 Seater Tempo Traveller"/>
@@ -131,7 +144,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
          </div>
          <div class="card-container">
@@ -144,7 +161,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
              <div class="card">
                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-anSUE2enX6nYQGXVy5XV2HFQTQpQ1ECAg&s" alt="12 Seater Tempo Traveller"/>
@@ -155,7 +176,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
              <div class="card">
                  <img src="https://www.delhitempotravellers.com/images/14seater.jpg" alt="14 Seater Tempo Traveller"/>
@@ -166,7 +191,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
              <div class="card">
                  <img src="https://5.imimg.com/data5/NP/FU/MY-5786013/16-seater-tempo-traveller-hire-in-delhi-500x500.jpg" alt="16 Seater Tempo Traveller"/>
@@ -177,7 +206,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
          </div>
          <div class="card-container">
@@ -190,7 +223,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
              <div class="card">
                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-anSUE2enX6nYQGXVy5XV2HFQTQpQ1ECAg&s" alt="12 Seater Tempo Traveller"/>
@@ -201,7 +238,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
              <div class="card">
                  <img src="https://www.delhitempotravellers.com/images/14seater.jpg" alt="14 Seater Tempo Traveller"/>
@@ -212,7 +253,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
              <div class="card">
                  <img src="https://5.imimg.com/data5/NP/FU/MY-5786013/16-seater-tempo-traveller-hire-in-delhi-500x500.jpg" alt="16 Seater Tempo Traveller"/>
@@ -223,7 +268,11 @@ export default function Navbar() {
                      <li><strong>Available:</strong> Maharaja & Luxury</li>
                      <li><strong>Best Price:</strong> Guaranteed</li>
                  </ul>
-                 <button>Click here</button>
+                 <div className='book-btns'>
+                    <button>Book_Now</button>
+                    <button>Whatsapp</button>
+                    <button>Call Now</button>
+                </div>
              </div>
          </div>
      
@@ -310,7 +359,7 @@ export default function Navbar() {
              </div>
          </div>
          
-         <div class="booking-section">
+         {/* <div class="booking-section">
          <div class="booking-overlay">
            <div class="booking-content">
              <h1>24X7 Booking for Outstation Tempo Traveller At Uppal Travels</h1>
@@ -329,7 +378,7 @@ export default function Navbar() {
              </div>
            </div>
          </div>
-       </div>
+       </div> */}
      
        <div class="unique-container" id='Contact'>
          <div class="unique-form-section">
@@ -348,14 +397,19 @@ export default function Navbar() {
            <div class="unique-contact-item">
              <h3 class="unique-contact-heading">Location</h3>
              <p class="unique-contact-text">9421/10 Sadar Thana Road Pahar Ganj, New Delhi 110055</p>
+             <span class="material-symbols-outlined">location_on</span>
            </div>
            <div class="unique-contact-item">
              <h3 class="unique-contact-heading">Make A Call</h3>
              <p class="unique-contact-text">+91-99102 29914</p>
+             <span class="material-symbols-outlined">call</span>
            </div>
            <div class="unique-contact-item">
              <h3 class="unique-contact-heading">Flaticon-Email</h3>
              <p class="unique-contact-text">harishuppal1986@gmail.com</p>
+             <span class="material-symbols-outlined">
+mail
+</span>
            </div>
          </div>
         </div>
@@ -445,6 +499,7 @@ export default function Navbar() {
      
         
            </>
+           </div>
     </>
   )
 }
