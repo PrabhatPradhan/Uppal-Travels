@@ -471,7 +471,7 @@ export default function Navbar() {
                      <a href="#">Refund Policy</a> | 
                      <a href="#">Contact Us</a>
                  </div>
-                 <p>Design by WebkeyIndia | Copyright 2024 Uppal Travels</p>
+                 <p>Design by WebkeyIndia | Copyright 2024 Prabhat</p>
              </div>
          </footer>
         
