@@ -502,7 +502,7 @@ background-color: #FF9F33;
     font-size: 2rem;
     font-weight: 600;
     padding-left: 25rem;
-   
+   padding-top: 1.5rem;
     display: flex;
     align-items: center;
 }
@@ -916,4 +916,121 @@ background-color: #FF9F33;
     }
   }
   
+  
+
+   
+  
+  .reviews-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .reviews-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .summary-item {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .summary-item h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .growth {
+    font-size: 0.9rem;
+    color: green;
+  }
+  
+  .stars {
+    font-size: 1.2rem;
+    color: gold;
+  }
+  
+  .rating-distribution div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+  }
+  
+  .rating-distribution .bar {
+    flex: 1;
+    height: 10px;
+    background: #ddd;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .rating-distribution .bar div {
+    height: 100%;
+    background: #4caf50;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .review-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-info img {
+    border-radius: 50%;
+    margin-right: 15px;
+    height: 4rem;
+  }
+  
+  .review-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .review-content .review-date {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  .actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions button {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #f9f9f9;
+    transition: 0.3s;
+  }
+  
+  .actions button:hover {
+    background: #f1f1f1;
+  }
   

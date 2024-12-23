@@ -1,4 +1,8 @@
 import React from 'react'
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import CallIcon from "@mui/icons-material/Call";
+import EmailIcon from "@mui/icons-material/Email";
+
 import './Navbar.css'
 export default function Navbar() {
   return (
@@ -213,68 +217,7 @@ export default function Navbar() {
                 </div>
              </div>
          </div>
-         <div class="card-container">
-             <div class="card">
-                 <img src="https://www.progressivetourtravels.com/images/luxury-tempo-img-1.webp" alt="9 Seater Tempo Traveller"/>
-                 <h3>9 Seater Tempo Traveller</h3>
-                 <ul>
-                     <li><strong>Seat:</strong> 9 Passengers + 1 Driver</li>
-                     <li><strong>Facility:</strong> AC, Mic, Pushback Seat Music</li>
-                     <li><strong>Available:</strong> Maharaja & Luxury</li>
-                     <li><strong>Best Price:</strong> Guaranteed</li>
-                 </ul>
-                 <div className='book-btns'>
-                    <button>Book_Now</button>
-                    <button>Whatsapp</button>
-                    <button>Call Now</button>
-                </div>
-             </div>
-             <div class="card">
-                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP-anSUE2enX6nYQGXVy5XV2HFQTQpQ1ECAg&s" alt="12 Seater Tempo Traveller"/>
-                 <h3>12 Seater Tempo Traveller</h3>
-                 <ul>
-                     <li><strong>Seat:</strong> 12 Seater Tempo Traveller</li>
-                     <li><strong>Facility:</strong> AC, Mic, Pushback Seat Music</li>
-                     <li><strong>Available:</strong> Maharaja & Luxury</li>
-                     <li><strong>Best Price:</strong> Guaranteed</li>
-                 </ul>
-                 <div className='book-btns'>
-                    <button>Book_Now</button>
-                    <button>Whatsapp</button>
-                    <button>Call Now</button>
-                </div>
-             </div>
-             <div class="card">
-                 <img src="https://www.delhitempotravellers.com/images/14seater.jpg" alt="14 Seater Tempo Traveller"/>
-                 <h3>14 Seater Tempo Traveller</h3>
-                 <ul>
-                     <li><strong>Seat:</strong> 14 Seater Tempo Traveller</li>
-                     <li><strong>Facility:</strong> AC, Mic, Pushback Seat Music</li>
-                     <li><strong>Available:</strong> Maharaja & Luxury</li>
-                     <li><strong>Best Price:</strong> Guaranteed</li>
-                 </ul>
-                 <div className='book-btns'>
-                    <button>Book_Now</button>
-                    <button>Whatsapp</button>
-                    <button>Call Now</button>
-                </div>
-             </div>
-             <div class="card">
-                 <img src="https://5.imimg.com/data5/NP/FU/MY-5786013/16-seater-tempo-traveller-hire-in-delhi-500x500.jpg" alt="16 Seater Tempo Traveller"/>
-                 <h3>16 Seater Tempo Traveller</h3>
-                 <ul>
-                     <li><strong>Seat:</strong> 16 Seater Tempo Traveller</li>
-                     <li><strong>Facility:</strong> AC, Mic, Pushback Seat Music</li>
-                     <li><strong>Available:</strong> Maharaja & Luxury</li>
-                     <li><strong>Best Price:</strong> Guaranteed</li>
-                 </ul>
-                 <div className='book-btns'>
-                    <button>Book_Now</button>
-                    <button>Whatsapp</button>
-                    <button>Call Now</button>
-                </div>
-             </div>
-         </div>
+         
      
          <div class="advantages-section">
              <h2>Advantages Of Tempo Travellers</h2>
@@ -321,6 +264,90 @@ export default function Navbar() {
 
 
         </div>
+
+        <div className="reviews-section">
+      <h1>Reviews</h1>
+      <div className="reviews-summary">
+        <div className="summary-item">
+          <h2>10.0k</h2>
+          <p>Growth in reviews this year</p>
+          <span className="growth">21% <span role="img" aria-label="growth">📈</span></span>
+        </div>
+        <div className="summary-item">
+          <h2>4.0</h2>
+          <p>Average rating this year</p>
+          <div className="stars">⭐⭐⭐⭐☆</div>
+        </div>
+        <div className="summary-item">
+          <p>March 2021 - February 2022</p>
+          <div className="rating-distribution">
+            <div>
+              <span>⭐ 5</span>
+              <div className="bar">
+                <div style={{ width: '80%' }}></div>
+              </div>
+              <span>2.0k</span>
+            </div>
+            <div>
+              <span>⭐ 4</span>
+              <div className="bar">
+                <div style={{ width: '40%' }}></div>
+              </div>
+              <span>1.0k</span>
+            </div>
+            <div>
+              <span>⭐ 3</span>
+              <div className="bar">
+                <div style={{ width: '20%' }}></div>
+              </div>
+              <span>500</span>
+            </div>
+            <div>
+              <span>⭐ 2</span>
+              <div className="bar">
+                <div style={{ width: '8%' }}></div>
+              </div>
+              <span>200</span>
+            </div>
+            <div>
+              <span>⭐ 1</span>
+              <div className="bar">
+                <div style={{ width: '0%' }}></div>
+              </div>
+              <span>0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="review-card">
+        <div className="user-info">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpg"
+            alt="User Profile"
+          />
+          <div>
+            <h3>Towhidur Rahman</h3>
+            <p>Total Spend: <strong>$200</strong></p>
+            <p>Total Reviews: <strong>14</strong></p>
+          </div>
+        </div>
+        <div className="review-content">
+          <div className="stars">⭐⭐⭐⭐⭐</div>
+          <p className="review-date">24-10-2022</p>
+          <p>
+            My first and only mala ordered on Etsy, and I'm beyond delighted! I
+            requested a custom mala based on two stones I was called to invite
+            together in this kind of creation. The fun and genuine joy I invite
+            together in this kind of creation.
+          </p>
+          <div className="actions">
+            <button>Public Comment</button>
+            <button>Direct Message</button>
+            <button>❤️</button>
+          </div>
+        </div>
+      </div>
+    </div>
      
        <div class="unique-container" id='Contact'>
          <div class="unique-form-section">
@@ -339,19 +366,29 @@ export default function Navbar() {
            <div class="unique-contact-item">
              <h3 class="unique-contact-heading">Location</h3>
              <p class="unique-contact-text">9421/10 Sadar Thana Road Pahar Ganj, New Delhi 110055</p>
-             <span class="material-symbols-outlined">location_on</span>
+             <div>
+     
+    <div style={{ display: "flex", alignItems: "center", gap: "10px" ,marginTop:"1.5rem"}}>
+      <LocationOnIcon style={{ color: "red", fontSize: 30, marginLeft: "2rem" }} />
+      <span>Location: New Delhi</span>
+    </div>
+    
+  </div>
            </div>
            <div class="unique-contact-item">
              <h3 class="unique-contact-heading">Make A Call</h3>
-             <p class="unique-contact-text">+91-99102 29914</p>
-             <span class="material-symbols-outlined">call</span>
+             
+             <div style={{ display: "flex", alignItems: "center", gap: "10px", marginTop: "10px",marginTop:"1.5rem" }}>
+             <CallIcon style={{ color: "green", fontSize: 30, marginLeft: "2rem" }} />
+             <span>Call: +91-99102 29914</span>
+             </div>
            </div>
            <div class="unique-contact-item">
              <h3 class="unique-contact-heading">Flaticon-Email</h3>
-             <p class="unique-contact-text">harishuppal1986@gmail.com</p>
-             <span class="material-symbols-outlined">
-mail
-</span>
+              <div style={{ display: "flex", alignItems: "center", gap: "10px",marginTop:"1.5rem" }}>
+      <EmailIcon style={{ color: "blue", fontSize: 30, marginLeft: "1rem", }} />
+      <span> harishuppal1986@gmail.com</span>
+    </div>
            </div>
          </div>
         </div>
