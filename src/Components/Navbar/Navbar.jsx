@@ -240,7 +240,7 @@ export default function Navbar() {
                  </div>
              </div>
          </div>
-        <div className='whyuse-div'>
+        <div className='whyuse-div' id='Packages'>
         <h1 className='whyuse'>Why Use Uppal Tempo Travellers?</h1>
         </div>
         <div className='why-use-tampo'>
